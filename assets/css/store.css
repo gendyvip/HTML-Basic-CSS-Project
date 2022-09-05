@@ -1,4 +1,8 @@
-.container,.flexcontents{
+.container{
+    display: flex;
+    width: 100%;
+}
+.flexcontents{
     display: flex;
 }
 .flexprice{
@@ -19,11 +23,9 @@
 }
 #grocery {
     margin-right: auto;
-    min-width: 500px;
 }
 #mensfashion {
     margin-left:auto;
-    min-width: 500px;
 }
 hr{
     border-color: rgb(241, 240, 240);
