@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic HTML Project</title>
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tajawal">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html"> Contact Us</a></li>
+            </ul>
+        </nav>
+        <center>
+            <h1>You are currently on: <span class="cpage">Contact Us</span></h1>
+        </center>
+    </header>
+    <main class="container">
+    <section id="contact">
+        <form id="contactusform" action="./home.html">
+                <div class="row">
+                    <div class="col-50">
+                    <label for="name">Full Name*</label>
+                </div>
+                    <div class="col-50">
+                    <input id="name" type="text" name="name" placeholder="Full Name"  minlength="3" maxlength="15" required>
+                </div>
+            </div>
+                <div class="row">
+                        <div class="col-50">
+                        <label for="email">Email*</label>
+                    </div>
+                        <div class="col-50">
+                        <input id="email" type="email" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-50">
+                        <label for="phone">Phone</label>
+                    </div>
+                        <div class="col-50">
+                        <input id="phone" type="tel" name="phone" placeholder="Phone" >
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-50">
+                        <label for="subject">Subject</label>
+                    </div>
+                        <div class="col-50">
+                        <input id="subject" type="text" name="subject" placeholder="Subject">
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-50">
+                        <label for="gender">Gender</label>
+                    </div>
+                        <div class="col-50">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Male</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Female</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-50">
+                        <label for="topics">Topics</label>
+                    </div>
+                        <div class="col-50">
+                            <input id="general" type="checkbox" name="general">
+                            <label for="general">General</label>
+                            <input id="help" type="checkbox" name="help">
+                            <label for="help">Help</label>
+                            <input id="issue" type="checkbox" name="issue">
+                            <label for="issue">Issue</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-50">
+                    <label for="message">Message</label>
+                </div>
+                    <div class="col-50">
+                    <textarea  name="message" id="message" rows="6" placeholder="Message" width="20"></textarea>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-50">
+                    <label for="attachment">Attachment (Optional)</label>
+                </div>
+                    <div class="col-50">
+                    <input id="attachment" type="file" accept=".pdf,image/*" multiple>
+                </div>
+                </div>
+                <button id="submit">Submit</button>
+        </form>
+
+    </section>
+</main>
+    <footer>
+        Copyright ©Mohamed Elgendy, All rights reserved.
+    </footer>
+</body>
+
+</html>

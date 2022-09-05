@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic HTML Project</title>
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tajawal">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="contact.html"> Contact Us</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>You are currently on: <span class="cpage">Home</span></h1>
+    </header>
+    <main class="container">
+        <section id="Products">
+            <h3>Products</h3>
+            <details>
+                <summary id="mensfashion"><b>&nbspMen's Fashion</b></summary>
+                <p><a href="./store.html#zipper">Men's Sweatshirt Cotton</a></p>
+                <p><a href="./store.html#magma">Magma mens Shirt</a></p>
+            </details>
+            <details>
+                <summary id="womensfashion"><b>&nbspWomen's Fashion</b></summary>
+                <p><a href="./store.html#">Soon</a></p>
+                <p><a href="./store.html#">Soon</a></p>
+            </details>
+            <details>
+                <summary id="grocery"><b>&nbspGrocery</b></summary>
+                <p><a href="./store.html#crystal">Crystal Corn Oil</a></p>
+                <p><a href="./store.html#fairy">Fairy Ultra Lemon</a></p>
+            </details>
+
+            <details>
+                <summary id="laptops"><b>&nbspLaptops</b></summary>
+                <p><a href="./store.html#">Soon</a></p>
+                <p><a href="./store.html#">Soon</a></p>
+            </details>
+            <details>
+                <summary id="mobiles"><b>&nbspMobile Phones</b></summary>
+                <p><a href="./store.html#iphone13">Apple iPhone 13 Pro Max</a></p>
+                <p><a href="./store.html#samsung10">Samsung Galaxy Note 10</a></p>
+            </details>
+        </section>
+        <section id="Reservation">
+            <form id="reserveform">
+                <h1>Reservation Form</h1>
+                <div class="row">
+                    <div class="col-50">
+                        <label for="name">Full Name *</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="name" type="text" name="name" placeholder="Full Name" minlength="3" maxlength="15"
+                            required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="email">Email *</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="email" type="email" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="roomtype">Room Type</label>
+                    </div>
+                    <div class="col-50">
+                        <select id="roomtype"  name="roomtype" placeholder="Select">
+                            <option value="select" selected disabled>Select</option>
+                            <option value="1">Economy</option>
+                            <option value="2">First Class</option>
+                            <option value="3">Business Class</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="arrdate">Arrival Date *</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="arrdate" type="date" name="arrdate" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="depdate">Departure Date *</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="depdate" type="date" name="depdate" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="guests">Number of Guests *</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="guests" type="number" name="guests" min="0" max="6" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="pick">Free Pickup</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="pick1" type="radio" name="pick">
+                        <label for="yes">Yes</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input id="pick" type="radio" name="pick">
+                        <label for="no">No</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="subject" type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="flightnum">Flight Number</label>
+                    </div>
+                    <div class="col-50">
+                        <input id="flightnum" type="phone" name="flightnum" placeholder="Flight Number" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <label for="requests">Special Requests</label>
+                    </div>
+                    <div class="col-50">
+                        <textarea name="requests" id="requests" rows="" placeholder="Type Here"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Copyright ©Mohamed Elgendy, All rights reserved.
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/5ae2d95ab7.js" crossorigin="anonymous"></script>
+
+</html>

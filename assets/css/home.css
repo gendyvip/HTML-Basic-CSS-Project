@@ -1,0 +1,77 @@
+/* home.html styles*/
+.container{
+    display: flex;
+}
+#Products{
+    border: #3a334c 1px solid;
+    border-radius: 4px;
+    padding: 20px 20px;
+    background-color: #1d1c31;
+    min-width: 200px;
+}
+#Products h3{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: solid #fff 1px;
+    border-radius: 2px;
+    padding: 5px;
+}
+details{
+    padding-bottom: 5px;
+}
+summary{
+    color: #fff;
+}
+summary:hover{
+    color: #ffb500;
+}
+#grocery::marker{
+    font: var(--fa-font-solid);
+    content: "\f291";
+}
+#mensfashion::marker{
+    font: var(--fa-font-solid);
+    content: "\f183";
+}
+#womensfashion::marker{
+    font: var(--fa-font-solid);
+    content: "\f182";
+}
+#laptops::marker{
+    font: var(--fa-font-solid);
+    content: "\f109";
+}
+#mobiles::marker{
+    font: var(--fa-font-solid);
+    content: "\f3cf";
+}
+details p a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+details p a:hover{
+    text-decoration: none;
+    color: #ffb500;
+}
+  
+#Reservation{
+    border: #3a334c 1px solid;
+    border-radius: 4px;
+    padding: 20px 20px;
+    background-color: #1d1c31;
+    color: #fff;
+    right: 0px;
+    margin-left:auto ;
+    width: 25%;
+    min-width: 400px;
+}
+#reserveform h1{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border: solid #fff 1px;
+    border-radius: 2px;
+    padding: 5px;
+}
