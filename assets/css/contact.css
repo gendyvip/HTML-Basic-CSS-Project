@@ -20,7 +20,7 @@ input[type="file"]:focus{
 .container{
     display: flex;
 }
-img{
+#imgcontact{
     width: 50%;
     height: 550px;
     margin-left: auto;

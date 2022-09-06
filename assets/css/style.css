@@ -7,10 +7,16 @@ nav{
     background-color: #151428;
     position:relative;
     border-bottom:solid 1px #fff ;
+    display: flex;
+}
+#logo{
+width: 70px;
+margin-left: 1470px;
+padding-top: 5px;
 }
 nav ul{
     margin: 0px;
-    padding: 20px 20px;
+    padding: 20px;
 }
 nav ul li{
     list-style:none ;
