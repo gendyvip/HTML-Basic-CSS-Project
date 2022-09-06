@@ -17,6 +17,11 @@ input[type="file"]:focus{
     border: none;
     background-color: transparent;
 }
-textarea{
-    max-width:fit-content;
+.container{
+    display: flex;
+}
+img{
+    width: 50%;
+    height: 550px;
+    margin-left: auto;
 }

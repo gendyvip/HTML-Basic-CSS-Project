@@ -1,11 +1,12 @@
 body{
     margin: 0px;
     font-family: Tajawal;
-    color: #0e0b1a;
+    color: #151428;
 }
 nav{
-    background-color: #0e0b1a;
+    background-color: #151428;
     position:relative;
+    border-bottom:solid 1px #fff ;
 }
 nav ul{
     margin: 0px;
@@ -24,9 +25,13 @@ nav ul li a{
 nav ul li a:hover{
     color: #ffb500;
 }
+header{
+    padding-bottom: 10px;
+    background-color: #1d1c31;
+}
 header h1{
     text-align: center;
-    color: #0e0b1a;
+    color: #fff;
 }
 .container{
     padding: 20px 200px;
@@ -75,7 +80,7 @@ input:focus,textarea:focus{
     background-color: #ccc;
 }
 footer{
-    background-color: #0e0b1a;
+    background-color: #151428;
     padding: 20px 20px;
     position:relative;
     bottom: 0;

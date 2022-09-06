@@ -1,12 +1,14 @@
 .container{
     display: flex;
-    width: 100%;
 }
 .flexcontents{
     display: flex;
 }
 .flexprice{
     margin-left: 50px;
+}
+.flexpriceetc{
+    margin-left: 200px;
 }
 #grocery h1,#mensfashion h1{
     text-align: center;
