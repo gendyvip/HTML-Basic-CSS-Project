@@ -11,7 +11,7 @@ nav{
 }
 #logo{
 width: 70px;
-margin-left: 1470px;
+margin-left: 1350px;
 padding-top: 5px;
 }
 nav ul{
@@ -23,6 +23,26 @@ nav ul li{
     display: inline;
     padding: 10px;
     font-size: 19px;
+}
+nav ul .home::before{
+    font: var(--fa-font-solid);
+    content: "\f015";
+    color: #fff;
+}
+nav ul .store::before{
+    font: var(--fa-font-solid);
+    content: "\f54e";
+    color: #fff;
+}
+nav ul .aboutus::before{
+    font: var(--fa-font-solid);
+    content: "\f05a";
+    color: #fff;
+}
+nav ul .contact::before{
+    font: var(--fa-font-solid);
+    content: "\f2bb";
+    color: #fff;
 }
 nav ul li a{
     text-decoration: none;
