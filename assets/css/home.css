@@ -2,14 +2,15 @@
 .container{
     display: flex;
 }
-#Products{
+#Categories{
     border: #3a334c 1px solid;
     border-radius: 4px;
     padding: 20px 20px;
     background-color: #1d1c31;
     min-width: 200px;
+    margin-left: 25% ;
 }
-#Products h3{
+#Categories h3{
     color: #fff;
     font-size: 20px;
     text-align: center;
@@ -66,6 +67,7 @@ details p a:hover{
     margin-left:auto ;
     width: 25%;
     min-width: 400px;
+    margin-right: 25% ;
 }
 #reserveform h1{
     color: #fff;
